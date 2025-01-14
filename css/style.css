@@ -164,3 +164,16 @@ h2 {
 #aqua {
   background-color: #42ccb4;
 }
+
+/*Footer */
+
+#site_footer {
+  text-align: center;
+}
+
+#Davide {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  color: #20a9e5;
+}
