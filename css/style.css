@@ -80,12 +80,87 @@ hr {
 
 /*Task list start */
 
+.task-list {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
 h2 {
   display: inline-block;
   color: var(--toboo-main);
+  vertical-align: top;
 }
 .drop-arrow {
-  font-size: 2rem;
-  float: left;
+  font-size: 2.5rem;
   color: var(--toboo-main);
+}
+
+.checkmark {
+  display: inline-block;
+  color: var(--toboo-check);
+  border: 2px solid;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.cross {
+  display: inline-block;
+  color: var(--toboo-cross);
+  border: 2px solid;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.task_content {
+  color: var(--toboo-main);
+  font-weight: 600;
+}
+
+.topic {
+  color: white;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.task {
+  margin-bottom: 25px;
+}
+
+.task_title {
+  padding-bottom: 40px;
+}
+
+/*Task list end */
+
+#blue {
+  background-color: #14aaf5;
+}
+
+#purple {
+  background-color: #ab5de6;
+}
+
+#orange {
+  background-color: #ff9b00;
+}
+
+#green {
+  background-color: #a3d116;
+}
+
+#pink {
+  background-color: #ec4a9d;
+}
+
+#aqua {
+  background-color: #42ccb4;
 }
