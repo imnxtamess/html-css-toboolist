@@ -1,7 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --toboo-lighter: white;
   --toboo-light: #f6f8f9;
   --toboo-main: #434851;
   --toboo-check: #42ccb4;
   --toboo-cross: #ff4848;
+}
+
+h1 {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: "Roboto", serif;
+  font-size: 28px;
+  font-weight: 1000;
+}
+
+.logo_img {
+  margin-top: 10px;
+  margin-left: 20px;
+  float: left;
 }
