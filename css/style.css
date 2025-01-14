@@ -28,14 +28,16 @@ h1 {
 }
 
 .logo {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+  background-color: var(--toboo-lighter);
+  padding-bottom: 1rem;
 }
 
 /*Header end */
 
 /*Main start */
 
-main {
+body {
   background-color: var(--toboo-light);
 }
 
@@ -72,10 +74,6 @@ main {
 hr {
   border-color: var(--toboo-light);
   margin-bottom: 40px;
-}
-
-.buttons {
-  margin-top: 40px;
 }
 
 /*Menu section end */
