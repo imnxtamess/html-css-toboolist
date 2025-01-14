@@ -100,8 +100,8 @@ h2 {
   color: var(--toboo-check);
   border: 2px solid;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   text-align: center;
   margin-right: 5px;
 }
@@ -111,8 +111,8 @@ h2 {
   color: var(--toboo-cross);
   border: 2px solid;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   text-align: center;
   margin-right: 5px;
 }
