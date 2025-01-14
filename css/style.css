@@ -4,12 +4,14 @@
 }
 
 :root {
-  --toboo-lighter: white;
+  --toboo-lighter: #ffffff;
   --toboo-light: #f6f8f9;
   --toboo-main: #434851;
   --toboo-check: #42ccb4;
   --toboo-cross: #ff4848;
 }
+
+/*Header start */
 
 h1 {
   display: inline-block;
@@ -24,3 +26,51 @@ h1 {
   margin-left: 20px;
   float: left;
 }
+
+.logo {
+  margin-bottom: 10px;
+}
+
+/*Header end */
+
+/*Main start */
+
+main {
+  background-color: var(--toboo-light);
+}
+
+.main_content {
+  background-color: var(--toboo-lighter);
+  margin: auto;
+  width: 80%;
+  border-radius: 5px;
+}
+
+/*Menu section start */
+
+#addT,
+#addS {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+#addT {
+  background-color: #14aaf5;
+  color: var(--toboo-lighter);
+  margin-left: 50px;
+}
+
+#addS {
+  background-color: var(--toboo-lighter);
+  border: 1px solid #adb3b6;
+  color: #adb3b6;
+}
+
+hr {
+  border-color: var(--toboo-light);
+}
+
+/*Menu section end */
