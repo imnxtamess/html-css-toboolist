@@ -139,6 +139,10 @@ h2 {
   padding-bottom: 40px;
 }
 
+li {
+  list-style: none;
+}
+
 /*Task list end */
 
 #blue {
